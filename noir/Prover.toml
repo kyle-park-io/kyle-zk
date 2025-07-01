@@ -1,0 +1,17 @@
+# Input values for basic square proof example
+secret_number = "5"
+public_square = "25"
+
+# Use the values below to test other examples
+# Range proof example
+# secret = "15"
+# min = "10" 
+# max = "20"
+
+# Age verification example
+# birth_year = "1990"
+# current_year = "2024"
+
+# Hash preimage example
+# preimage = "12345"
+# public_hash = "corresponding_hash_value" 
