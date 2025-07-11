@@ -1,0 +1,23 @@
+# Noir Age Verification ZK Circuit - Proof Generation Settings
+# This file defines the input values used for proof generation
+
+# Public inputs
+commitment = "25012345"
+min_age = 20
+
+# Private inputs (witness)
+age = 25
+nonce = "12345"
+
+# Other test scenarios (commented out)
+# Success case - exactly 20 years old
+# age = 20
+# nonce = "67890"
+
+# Failure case - 19 years old (under age)
+# age = 19
+# nonce = "11111"
+
+# Failure case - 18 years old (under age)
+# age = 18
+# nonce = "22222" 
